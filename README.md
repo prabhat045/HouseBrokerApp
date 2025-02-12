@@ -1,4 +1,4 @@
-# DotNetAssignment
+
 Architecture
 The solution is divided into four primary layers:
 
