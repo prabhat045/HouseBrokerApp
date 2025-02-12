@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBrokerApp.Domain", "HouseBrokerApp.Domain\HouseBrokerApp.Domain.csproj", "{5841845D-AC5E-45E2-82E6-64F396E08936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBrokerApp.Application", "HouseBrokerApp.Application\HouseBrokerApp.Application.csproj", "{80626239-FD79-4066-B93B-F0778D2FC329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBrokerApp.Infrastructure", "HouseBrokerApp.Infrastructure\HouseBrokerApp.Infrastructure.csproj", "{614EFF7F-052B-4610-890E-7B8D21E2E94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBrokerApp.Tests", "HouseBrokerApp.Tests\HouseBrokerApp.Tests.csproj", "{048CA171-9E2A-4E73-833C-452EE2C6F451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBrokerApp.AppService", "HouseBrokerApp.AppService\HouseBrokerApp.AppService.csproj", "{03EA79F6-A484-4019-B3F8-B8356EC1008F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5841845D-AC5E-45E2-82E6-64F396E08936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5841845D-AC5E-45E2-82E6-64F396E08936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5841845D-AC5E-45E2-82E6-64F396E08936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5841845D-AC5E-45E2-82E6-64F396E08936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80626239-FD79-4066-B93B-F0778D2FC329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80626239-FD79-4066-B93B-F0778D2FC329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80626239-FD79-4066-B93B-F0778D2FC329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80626239-FD79-4066-B93B-F0778D2FC329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614EFF7F-052B-4610-890E-7B8D21E2E94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614EFF7F-052B-4610-890E-7B8D21E2E94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614EFF7F-052B-4610-890E-7B8D21E2E94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614EFF7F-052B-4610-890E-7B8D21E2E94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048CA171-9E2A-4E73-833C-452EE2C6F451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048CA171-9E2A-4E73-833C-452EE2C6F451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048CA171-9E2A-4E73-833C-452EE2C6F451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048CA171-9E2A-4E73-833C-452EE2C6F451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EA79F6-A484-4019-B3F8-B8356EC1008F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EA79F6-A484-4019-B3F8-B8356EC1008F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EA79F6-A484-4019-B3F8-B8356EC1008F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EA79F6-A484-4019-B3F8-B8356EC1008F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
